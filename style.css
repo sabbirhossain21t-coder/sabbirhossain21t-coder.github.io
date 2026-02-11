@@ -94,13 +94,29 @@ button, .social-btn {
 button:hover, .social-btn:hover {
   background: #4ade80;
 }
-
-/* Images */
-img {
-  max-width: 8%;
-  border-radius: 15px;
-  margin-top: 20px;
+/* Logo */
+.logo img {
+    height: 40px;
+    width: auto;
 }
+
+/* Banner */
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .logo img {
+        height: 30px;
+    }
+
+    .hero h1 {
+        font-size: 22px;
+    }
+  }
 
 /* Footer */
 footer {
