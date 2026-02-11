@@ -1,4 +1,4 @@
-a/* Reset */
+/*Reset*/
 * {
   margin: 0;
   padding: 0;
@@ -96,13 +96,13 @@ button:hover, .social-btn:hover {
 }
 /* Logo */
 .logo img {
-    height: 40px;
+    heheight20px;
     width: auto;
 }
 
 /* Banner */
 .hero img {
-    width: 100%;
+    width: 50%;
     height: auto;
     display: block;
 }
@@ -133,3 +133,4 @@ footer {
   p { font-size: 1rem; }
   nav a { font-size: 18px; margin: 0 10px; }
         }
+a
