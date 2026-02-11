@@ -1,4 +1,4 @@
-/* Reset */
+a/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -97,7 +97,7 @@ button:hover, .social-btn:hover {
 
 /* Images */
 img {
-  max-width: 80%;
+  max-width: 8%;
   border-radius: 15px;
   margin-top: 20px;
 }
